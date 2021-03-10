@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    /* background-color: blueviolet; */
+    box-sizing: border-box;
+    width: 900px;
+    height: 70vh;
+    display: grid;
+    grid-template-areas: 
+        "A"
+        "B"
+        "C"
+        ;
+    justify-items: center;
+    align-items: center;
+}
+
+#title{
+    grid-area: A;
+    position: relative;
+    top: 30px;
+    scale:1.7;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn{
+    grid-area: B;
+    border: 2px black solid;
+    border-radius: 5px;
+    scale:1.3;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}

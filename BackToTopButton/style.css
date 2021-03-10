@@ -1,0 +1,15 @@
+#back-to-top{
+    position:fixed;
+    font-size: large;
+    background-color: orange;
+    border-radius: 50px ;
+    right: 3em;
+    bottom: 3em;
+    width: auto;
+    height: 50px;
+    opacity: 0;
+}
+
+#back-to-top.visible{
+    opacity: 1;
+}
